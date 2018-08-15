@@ -1,5 +1,6 @@
 require_relative './config/environment'
 require 'sinatra/activerecord/rake'
+require 'pry'
 
 task :console do
   require 'irb'
